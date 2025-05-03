@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE FILOXENIA SIPS</title>
+    <link rel="stylesheet" href="styler.css">
+</head>
+<body>
+    <header>
+        <div class="logo-header">
+            <div class="logo-text">
+                <h1>THE FILOXENIA SIPS</h1>
+            </div>
+    	</div>
+	<div class='toolbar'>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="staff.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+	</div>
+    </header>
+    <main>
+        <section class="promo">
+            <h2>Heavenly Combo, Perfectly Brewed Today!</h2>
+            <h3>Americano + Croissant</h3>
+        </section>
+        <section class="info">
+            <div class="card">
+                <img src="menu.jpg" alt="New Menu">
+                <h4>Our New Menu</h3>
+                <p>Enjoy bold coffees and indulge in our treats.</p>
+                <a href="menu.html">See our new menu</a>
+	
+            </div>
+
+            <div class="card">
+                <img src="table.jpg" alt="Book a Table">
+                <h4>Book a table</h4>
+                <p>Reserve your spot at Filoxenia Sips for a cozy and delightful experience. Book a table now and savor every moment with us!</p>
+                <a href="book.html">Book your table now</a>
+            </div>
+            <div class="card">
+                <img src="opening-hors.jpg" alt="Opening Hours">
+                <h4>Opening Hours</h4>
+                <p>Mon - Fri: 2pm - 10pm<br>Sat: 2pm - 11pm<br>Sun: 2pm - 9pm</p>
+            </div>
+        </section>
+    </main>
+    <div class="footer-content">
+    <div class="footer-logo">
+        <img src="logo.jpeg" alt="Small Logo">
+    </div>
+    <div class="footer-line"></div>
+</div>
+
+    <footer>
+        <p>Designed and Developed by <a href="#">Sushmitha Gembunathan</a></p>
+    </footer>
+</body>
+</html>
+
+
+styler.css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #FFFFFF;
+}
+
+.logo-header {
+    background: url('home.png') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.logo-text h1 {
+    font-family: 'serif';
+    font-size: 5em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+.toolbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.toolbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar li {
+    margin: 0 15px;
+}
+
+.toolbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.toolbar a:hover {
+    text-decoration: underline;
+}
+
+
+.toolbar {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.promo {
+    background: url('food.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: -10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.promo h2 {
+    font-size: 2.0em;
+}
+
+.promo h3{
+    font: size 2.5em; 
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 10px;
+}
+
+.info .card {
+    background-color: #194274;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #333(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    padding: 35px;
+    flex: 1;
+}
+
+.info .card img {
+    width: 100%;
+    height: auto;
+}
+
+.info .card h4 {
+    color:#ffcc00;
+    margin: 10px 0;
+}
+
+.info .card a {
+    color: #FF0000;
+    text-decoration: none;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #333;
+    margin-right: 30px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer-border{
+    width: 200px;
+    height: 0.5px;
+    background-color: #333;
+    margin: 10px auto 5px auto;
+    border-radius: 2px;
+}
+
+footer p{
+    color:#333
+}
+ 
+footer a {
+      text-decoration: none;
+      color:#FF0000;
+}
